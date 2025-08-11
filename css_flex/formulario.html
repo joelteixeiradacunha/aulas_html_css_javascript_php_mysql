@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulários em HTML/CSS</h1>
+    <!-- Primeira TAG -->
+     <form action="#" method="post" target="_blank" autocomplete="on">
+        <!-- TAG input
+        type: text, password, email, number, date, checkbox, radio, submit, button, file
+        -->
+        <label for="name">Nome completo:</label>
+        <input type="text" id="name" name="form_name" >
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="form_password">
+        
+        <input type="submit" value="Enviar">
+
+        <input type="reset" value="Limpar">
+
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label>
+
+
+         <input type="checkbox" id="car1" name="fav_car" value="HTML">
+        <label for="car1">Mustang</label><br>
+        <input type="checkbox" id="car2" name="fav_car" value="CSS">
+        <label for="car2">Dodge Shelby</label>
+
+        <label for="birthday">Data nascimento:</label>
+        <input type="date" id="birthday" name="birthday">
+
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email">
+
+        <input type="image" src="images/entrar.png"alt="Submit" width="48" height="48">
+        <!-- <input> <label> <select> <textarea>
+            <button> <fieldset> <legend> <datalist>
+                <output> <option> <optgroup> -->
+        
+        <label for="cars">Escolha um carro:</label>
+        <select id="cars" name="cars" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="fiat" selected>Fiat</option>
+            <option value="bmw">BMW</option>
+        </select>
+
+        <textarea name="message" id="message" rows="10" cols="30">
+            Digite aqui sua mensagem para a Anastácia.
+        </textarea>
+
+        <button type="button" onclick="">Me aperte, please!!!</button>
+
+
+        <fieldset>
+            <legend>Cadastro de alunos</legend>
+            <label for="name">Nome Completo:</label>
+            <input type="text" name="name" id="name">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+        </fieldset>
+     </form>
+
+     <!-- <datalist> fazer consulta a uma lista pré-definida -->
+        <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Safari">
+            <option value="Edge">
+            <option value="Opera">
+        </datalist>
+</body>
+</html>
