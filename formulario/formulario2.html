@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="#">
+        <label for="fullName">Nome completo:</label>
+        <input type="text" id="fullName" name="full_name">
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="e_mail">
+        <br>
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <input type="submit" value="Enviar">
+        <br>
+        <button onclick="minhaFuncao()">(Botão) Me aperte, por favor!!!</button>
+        <br>
+        <input type="reset" value="Limpar campos">
+        <br>
+        <!-- Radio bottom -->
+        <input type="radio" id="html" name="html" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="css" value="CSS">
+        <label for="css">CSS</label>
+        <br>
+        <input type="radio" id="javascript" name="javascript" value="JavaScript">
+        <label for="javascript">Javascript</label>
+
+        <br>
+        <br>
+        <!-- Checkbox -->
+         <input type="checkbox" id="car1" name="fav_car" value="HTML" checked>
+        <label for="car1">Mustang</label><br>
+        <input type="checkbox" id="car2" name="fav_car" value="CSS">
+        <label for="car2">Dodge Shelby</label>
+
+        <br><br>
+        <input type="image" src="images/entrar.png"alt="Submit" width="24" height="24">
+
+    </form>
+
+
+    <script>
+        function minhaFuncao() {
+            alert("Você me apertou!");
+        }
+    </script>
+</body>
+</html>

@@ -26,14 +26,14 @@ https://www.flexboxdefense.com
 
 */
 .container {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
     row-gap: 10px;
-    column-gap: 30px;
+    column-gap: 30px; */
 
     /* INDIFERENTE */
     background-color: antiquewhite;
@@ -47,6 +47,10 @@ https://www.flexboxdefense.com
     width: 50px;
     flex-grow: 0;
     flex-shrink: 1;
+}
+
+.bloco-1 img {
+    max-width: 100%;
 }
 
 .bloco-2 {
