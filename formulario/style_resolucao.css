@@ -1,0 +1,26 @@
+.container__main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+}
+.col-75{
+    flex: 60%;
+    background-color: gray;
+}
+.col-50{
+    flex: 50%;
+}
+.form_background{
+    background-color: #7909f1;
+}
+input[type="text"], input[type="email"]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
